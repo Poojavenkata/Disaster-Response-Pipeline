@@ -9,7 +9,9 @@
 
 ## Installation <a name="installation"></a>
 
-The code runs with no issues with anaconda jupyter notebook. All we need is python 3 installed on the system.
+This code runs with no issues using python version 3.* .The code uses libraries like pandas, matplotlib, seaborn and numpy of anaconda jupyter distribution.
+
+Also, the dataset of StackOverflow 2017 survey can be found in the data folder above.
 
 
 ## Project Motivation<a name="motivation"></a>
@@ -21,7 +23,6 @@ For the data science blog post, I was interested in using stackoverflow survey 2
 3. Check the employment status of people who have formal education in computer science or software engineering ?
 
 
-
 ## File Descriptions <a name="files"></a>
 
 There is an .ipynb file showing the work related to the questions above.
@@ -30,6 +31,12 @@ Data_Science_blog_post.ipynb: Notebook containing the data analysis.
 data/2017/survey_results_public.csv: Stackoverflow's 2017 Annual Developer Survey data.
 
 ## Results <a name="results"></a>
+From the analysis, it is found that,
+
+1. 10 years or more work-experienced coders work for privately-held organizations that are not in a startup mode.
+2. JavaScript, SQL, C#, Java, Python, PHP, C++ and C languages share popularity amongst coders with and without experience.
+3. Majority of programmers who have a formal education in Computer science /Software Engineering are employed full-time.
+
 The main findings of the code can be found at the post available [here](https://medium.com/@venkatapooja.92/are-people-with-work-experience-bagged-by-companies-a39af3991005).
 
 
